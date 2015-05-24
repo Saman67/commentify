@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commentify jQuery Plugin</title>
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/commentify.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2 class="page-header">
+                Commentify jQuery Plugin
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </header>
+    <section class="row">
+        <div id="commentify" class="commentify col-md-8 col-md-offset-2">
+
+            <div class="commentify-form">
+                <input id="commentify-name" type="text" class="commentify-name" placeholder="Name" />
+                <input id="commentify-email" type="email" class="commentify-name" placeholder="Email" />
+                <textarea id="commentify-comment" class="commentify-name" placeholder="Comment"></textarea>
+                <button id="commentify-button" class="commentify-name">Comment</button>
+            </div>
+            <div class="commentify-comments">
+                <div class="commentify-comment">
+                    <span class="commentify-name"></span>
+                    <p class="commentify-comment"></p>
+                    <span class="commentify-date"></span>
+                </div>
+            </div>
+            <div class="commentify-load-more">
+                <span>Load More</span>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="js/commentify.js"></script>
+<script type="application/javascript">
+    $('#commentify').commentify({
+        pageCount: 8,
+        infiniteLoad: true,
+        liveTiming: true
+    });
+</script>
+</body>
+</html>
