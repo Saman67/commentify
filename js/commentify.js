@@ -1,7 +1,7 @@
 /**
  * jQuery Commentify Plugin
  *
- * Copyright (c) 2012 Saman Missaghian
+ * Copyright (c) 2015 Saman Missaghian
  * Licensed under MIT license.
  *
  * Version: 1.0.0
@@ -99,8 +99,6 @@
             comment = $('#' + opts.ids.comment, this),
             message = $('#' + opts.ids.message, this),
             commentsContainer = $('#' + opts.ids.commentsContainer, this);
-
-
 
         /************************************ Set Events ****************************************/
 
