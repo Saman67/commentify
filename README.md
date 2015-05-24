@@ -7,6 +7,9 @@ Note: At this time Commentify does not support user authentication for leaving a
 
 If you found a bug or have an idea for new features, please feel free to contact me. I appreciate your contribution to make this plugin better.
 
+### Demo ###
+
+- [Commentify](http://commentify.samanmissaghian.com)
 
 
 ### Basic Usage Example ###
@@ -47,7 +50,7 @@ If you found a bug or have an idea for new features, please feel free to contact
      
      
      
-### List of all available functions   
+### List of all available functions ###  
 
 ```js
 
@@ -113,7 +116,7 @@ $('#commentify').commentify({
 ```
 
 
-### Changelog
+### Changelog ###
 
 **1.0.0**
 *  Fields: name, email, comment, date
