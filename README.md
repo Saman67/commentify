@@ -50,7 +50,7 @@ If you found a bug or have an idea for new features, please feel free to contact
      
      
      
-### List of all available functions ###  
+### List of all available options
 
 ```js
 
