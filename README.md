@@ -1,4 +1,4 @@
-# commentify
+# Commentify
 jQuery plugin to provide comment functionality
 
 If you want to integrate restful comment feature for your one page or multi page website, Commentify allows you to easily integrate it with few lines of code.
