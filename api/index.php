@@ -8,7 +8,7 @@ class API
 {
     private static $api;
     private static $servername = "localhost";
-    private static $username = "root";
+    private static $username = "commentify";
     private static $password = "password";
     private static $dbname = "commentify";
     private static $conn;
